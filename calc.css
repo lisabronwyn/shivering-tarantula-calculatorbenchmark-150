@@ -100,10 +100,11 @@ body {
 }
 
 #zero {
-    width: 101px;
+    width: 99px;
     height: 52px;
     margin: 1px;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 25px;
+    text-align: left;
+    justify-content: center;
+    padding-left: 27px;
+    /*border-bottom-left-radius: 10px;*/
 }
