@@ -91,10 +91,11 @@ p {
 }
 
 #zero {
-    width: 126px;
+    width: 99px;
     height: 52px;
     margin: 1px;
     text-align: left;
     justify-content: center;
+    padding-left: 27px;
     /*border-bottom-left-radius: 10px;*/
 }
