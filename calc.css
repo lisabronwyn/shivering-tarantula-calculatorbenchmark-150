@@ -1,0 +1,109 @@
+@import normalize.css;
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    width: 18.35vw;
+    height: 56vh;
+    margin: 100px 0px 0px 600px;
+    border-radius: 4px;
+    background-color: #A0A0A0;
+    box-shadow: 20px 12px 60px 1px #707070;
+    display: block;
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    height: 10vh;
+    background-color: #A0A0A0;
+    color: #fff;
+    font-size: 58px;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.row {
+    display: flex;
+    height: 52px;
+    width: 260px;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+    justify-content: center;
+}
+
+.item {
+    background-color: #E0E0E0;
+    font-size: 22px;
+    font-weight: bolder;
+    width: 62px;
+    height: 52px;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:hover {
+    background-color: #808080;
+    transition: 100ms;
+}
+
+.item:active {
+    background-color: #505050;
+    transition: 100ms;
+}
+
+#equal {
+    background-color: #EA9649;
+    color: #F0F0F0;
+    border-bottom-right-radius: 10px;
+}
+
+#equal:hover {
+    background-color: #808080
+}
+
+#equal:active {
+    background-color: #505050;
+}
+
+#operator {
+    background-color: #EA9649;
+    color: #f0f0f0;
+}
+
+#operator:active {
+    background-color: #505050;
+}
+
+#operator:hover {
+    background-color: #808080
+}
+
+#zero {
+    width: 101px;
+    height: 52px;
+    margin: 1px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 25px;
+}

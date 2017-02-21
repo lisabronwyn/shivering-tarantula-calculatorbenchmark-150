@@ -1,0 +1,26 @@
+{
+  "name": "shivering-tarantula-calculatorbenchmark-150",
+  "version": "1.0.0",
+  "description": "Calculator Benchmark Exercise 150",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisabronwyn/shivering-tarantula-calculatorbenchmark-150.git"
+  },
+  "keywords": [
+    "calculator",
+    "benchmark"
+  ],
+  "author": "lisabronwyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lisabronwyn/shivering-tarantula-calculatorbenchmark-150/issues"
+  },
+  "homepage": "https://github.com/lisabronwyn/shivering-tarantula-calculatorbenchmark-150#readme",
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  }
+}
